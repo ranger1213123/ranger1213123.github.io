@@ -1,8 +1,8 @@
 # Basic Site Settings
-title                    : "Jia'nan Zhou / 周佳楠的学术主页"
+title                    : "周佳楠 / Jia'nan Zhou - 学术主页"
 title_separator          : "-"
 name                     : &name "Jia'nan Zhou"
-description              : &description "Undergraduate in Software Engineering at Sichuan University, passionate about computer vision and AI research."
+description              : &description "四川大学软件学院2023级本科生，专注于人工智能、计算机视觉与AI安全研究"
 url                      : "https://ranger1213123.github.io"  # ← 请替换为你自己的 GitHub Pages 地址
 baseurl                  : "" 
 repository               : "ranger1213123/ranger1213123.github.io"  # ← 改为你 fork 的仓库名
@@ -12,10 +12,10 @@ author:
   avatar           : "profile.png"  
   name             : "Jia'nan Zhou"
   pronouns         : "he/him"
-  bio              : "Grade 2 at Sichuan University | Passionate about AI, Computer Vision, and Research"
-  location         : "Chengdu, Sichuan, China"
-  employer         : "Sichuan University"
-  uri              :  # 可填学校/实验室链接
+  bio              : "四川大学软件学院2023级本科生 | 人工智能与计算机视觉研究者"
+  location         : "成都，四川，中国"
+  employer         : "四川大学软件学院"
+  uri              : "https://www.scu.edu.cn"  # 可填学校/实验室链接
   email            : "ranger13love@163.com"  # 建议创建一个 academic 用邮箱
 
   # Academic profiles (可选填)

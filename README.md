@@ -1,9 +1,80 @@
-# Academic Pages
-**Academic Pages is a GitHub Pages template for personal and professional portfolio-oriented websites.**
+# 周佳楠的学术主页 | Jia'nan Zhou's Academic Website
+
+**四川大学软件学院2023级本科生，专注于人工智能、计算机视觉与AI安全研究**
 
 ![Academic Pages template example](images/homepage.png "Academic Pages template example")
 
+## 个人简介 | About Me
+
+**周佳楠 (Jia'nan Zhou)**，四川大学软件学院2023级本科生。原就读于水利水电学院，后转入软件工程专业。目前同时修读大一与大二课程，学业任务紧张，但仍保持了较高的成绩。
+
+**Zhou Jianan** is an undergraduate student (Class of 2023) at the School of Software Engineering, Sichuan University. Originally admitted to the School of Water Conservancy and Hydropower, he later transferred to software engineering. Currently, he is taking both freshman and sophomore courses simultaneously, maintaining strong academic performance despite a heavy workload.
+
+## 研究兴趣 | Research Interests
+
+- **人工智能记忆系统** (AI Memory Systems)
+- **AI安全** (AI Security) 
+- **计算机视觉** (Computer Vision)
+- **多模态交互系统** (Multimodal Interaction Systems)
+
+## 主要项目 | Major Projects
+
+### 🏆 NUS暑期工作坊 | NUS Summer Workshop
+- **Visual Computing小组**: 2025.4.22-2025.7.22，获得团队最佳人气奖和一等奖
+- **成就**: 在新加坡国立大学视觉计算暑期工作坊中展现出色的技术能力和创新思维
+
+### 🔬 IDS LAB 四川大学 | IDS LAB, Sichuan University
+- **LLM记忆系统安全研究**: 2025.7.25至今，专注于大语言模型记忆系统的安全攻防
+- **研究方向**: 探索记忆系统的攻击和防御机制
+
+### 🤖 人工智能与计算机视觉 | AI & Computer Vision
+- **CycleGAN改进项目**: 实现既能进行风格迁移又能从随机噪声生成动漫头像
+- **OpenFace项目**: 使用CMake与Visual Studio构建特征提取工具
+
+### 🔒 AI系统与安全研究 | AI Systems & Security
+- **记忆系统研究**: 研究MemoryOS与mem0等记忆系统，尝试迁移content poisoning攻击
+- **攻击实验设计**: 设计完整的攻击实验与评估逻辑
+
+### 🎯 多模态交互系统 | Multimodal Interaction Systems
+- **智能面试评测系统**: 基于Flask + MySQL + Vue 3 + Element Plus的多模态系统
+- **集成功能**: 讯飞API、OpenFace与大模型评分机制
+
+### 💾 数据库与事务管理 | Database & Transaction Management
+- **事务调度系统**: 支持Wound-Wait协议的事务调度系统
+
+### 📈 量化交易研究 | Quantitative Trading Research
+- **多因子交易策略**: BollingerStrategy类，结合多种技术指标
+
+## 技术能力 | Technical Skills
+
+### 编程语言 | Programming Languages
+- **C++**: 算法与数据结构实现
+- **Python**: 深度学习、数据分析、Flask后端开发
+- **Java**: Spring Boot、JDBC框架应用
+- **JavaScript/TypeScript**: Vue、React前端开发
+
+### 深度学习框架 | Deep Learning Frameworks
+- **PyTorch**: 主要深度学习框架
+- **TensorFlow**: 基础用法了解
+- **数据分析**: pandas、numpy等工具
+
+### 系统开发 | System Development
+- **数据库**: MySQL、MongoDB设计与优化
+- **Web开发**: Flask、Spring Boot、Vue.js、Element Plus
+- **版本控制**: Git、GitHub项目管理
+
+## 联系方式 | Contact
+
+- 📍 **地址**: 成都，四川，中国
+- 📧 **邮箱**: [ranger13love@163.com](mailto:ranger13love@163.com)
+- 🔗 **GitHub**: [ranger1213123](https://github.com/ranger1213123)
+- 🏫 **学校**: [四川大学](https://www.scu.edu.cn)
+
+---
+
 # Getting Started
+
+This website is built using the [Academic Pages](https://github.com/academicpages/academicpages.github.io) template and hosted on [GitHub Pages](https://pages.github.com).
 
 1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
 1. Click the "Use this template" button in the top right.
@@ -40,57 +111,4 @@ When you are initially working on your website, it is very useful to be able to 
     brew install node
     gem install bundler
     ```
-1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
-
-    If you see file permission error like `Fetching bundler-2.6.3.gem ERROR:  While executing gem (Gem::FilePermissionError) You don't have write permissions for the /var/lib/gems/3.2.0 directory.` or `Bundler::PermissionError: There was an error while trying to write to /usr/local/bin.`
-    Install Gems Locally (Recommended):
-    ```bash
-    bundle config set --local path 'vendor/bundle'
-    ```
-    then try run `bundle install` again. If succeeded, you should see a folder called `vendor` and `.bundle`.
-
-1. Run `jekyll serve -l -H localhost` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change.
-    You may also try `bundle exec jekyll serve -l -H localhost` to ensure jekyll to use specific dependencies on your own local machine.
-
-If you are running on Linux it may be necessary to install some additional dependencies prior to being able to run locally: `sudo apt install build-essential gcc make`
-
-## Using Docker
-
-Working from a different OS, or just want to avoid installing dependencies? You can use the provided `Dockerfile` to build a container that will run the site for you if you have [Docker](https://www.docker.com/) installed.
-
-You can build and execute the container by running the following command in the repository:
-
-```bash
-chmod -R 777 .
-docker compose up
-```
-
-You should now be able to access the website from `localhost:4000`.
-
-### Using the DevContainer in VS Code
-
-If you are using [Visual Studio Code](https://code.visualstudio.com/) you can use the [Dev Container](https://code.visualstudio.com/docs/devcontainers/containers) that comes with this Repository. Normally VS Code detects that a development coontainer configuration is available and asks you if you want to use the container. If this doesn't happen you can manually start the container by **F1->DevContainer: Reopen in Container**. This restarts your VS Code in the container and automatically hosts your academic page locally on http://localhost:4000. All changes will be updated live to that page after a few seconds.
-
-# Maintenance
-
-Bug reports and feature requests to the template should be [submitted via GitHub](https://github.com/academicpages/academicpages.github.io/issues/new/choose). For questions concerning how to style the template, please feel free to start a [new discussion on GitHub](https://github.com/academicpages/academicpages.github.io/discussions).
-
-This repository was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License (see LICENSE.md). It is currently being maintained by [Robert Zupko](https://github.com/rjzupkoii) and additional maintainers would be welcomed.
-
-## Bugfixes and enhancements
-
-If you have bugfixes and enhancements that you would like to submit as a pull request, you will need to [fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) this repository as opposed to using it as a template. This will also allow you to [synchronize your copy](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) of template to your fork as well.
-
-Unfortunately, one logistical issue with a template theme like Academic Pages that makes it a little tricky to get bug fixes and updates to the core theme. If you use this template and customize it, you will probably get merge conflicts if you attempt to synchronize. If you want to save your various .yml configuration files and markdown files, you can delete the repository and fork it again. Or you can manually patch.
-
----
-<div align="center">
-    
-![pages-build-deployment](https://github.com/academicpages/academicpages.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)
-[![GitHub contributors](https://img.shields.io/github/contributors/academicpages/academicpages.github.io.svg)](https://github.com/academicpages/academicpages.github.io/graphs/contributors)
-[![GitHub release](https://img.shields.io/github/v/release/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io/releases/latest)
-[![GitHub license](https://img.shields.io/github/license/academicpages/academicpages.github.io?color=blue)](https://github.com/academicpages/academicpages.github.io/blob/master/LICENSE)
-
-[![GitHub stars](https://img.shields.io/github/stars/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io)
-[![GitHub forks](https://img.shields.io/github/forks/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io/fork)
-</div>
+1. Run `

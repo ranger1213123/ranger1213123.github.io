@@ -1,7 +1,37 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "智能面试评测系统 | Intelligent Interview Evaluation System"
+excerpt: "基于多模态技术的智能面试评测系统，集成语音识别、人脸识别与大模型评分<br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+## 项目概述
+
+这是一个面向高校学生的多模态智能面试评测系统，旨在通过人工智能技术对面试过程进行全面分析。
+
+## 技术特点
+
+- **多模态融合**: 集成语音识别、人脸识别与自然语言处理
+- **实时分析**: 对面试过程的语音、表情和逻辑进行实时分析
+- **智能评分**: 基于大模型的智能评分机制
+- **用户友好**: 现代化的Web界面设计
+
+## 技术栈
+
+- **后端**: Flask + MySQL
+- **前端**: Vue 3 + Element Plus
+- **AI服务**: 讯飞API、OpenFace、大模型API
+- **部署**: Docker容器化部署
+
+## 核心功能
+
+1. **语音识别**: 实时转写面试对话内容
+2. **表情分析**: 通过OpenFace分析面试者表情变化
+3. **逻辑评估**: 基于大模型对回答逻辑性进行评估
+4. **综合评分**: 多维度综合评分系统
+5. **报告生成**: 自动生成详细的面试评估报告
+
+## 项目成果
+
+- 成功部署并应用于多个高校的面试场景
+- 显著提升了面试评估的客观性和效率
+- 获得了良好的用户反馈和评价 

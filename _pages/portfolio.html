@@ -1,14 +1,64 @@
 ---
 layout: archive
-title: "Portfolio"
+title: "作品集 / Portfolio"
 permalink: /portfolio/
 author_profile: true
 ---
 
 {% include base_path %}
 
+## 项目展示 / Project Showcase
 
 {% for post in site.portfolio %}
   {% include archive-single.html %}
 {% endfor %}
+
+## 主要项目 / Major Projects
+
+### 🤖 人工智能与计算机视觉 | AI & Computer Vision
+
+#### CycleGAN改进项目
+- **描述**: 基于CycleGAN改进的图像生成项目，实现既能进行风格迁移又能从随机噪声生成动漫头像
+- **技术栈**: Python, PyTorch, OpenCV
+- **成果**: 成功实现多种风格转换和图像生成功能
+
+#### OpenFace项目
+- **描述**: 参与OpenFace项目，使用CMake与Visual Studio构建特征提取工具，并与Python后端集成
+- **技术栈**: C++, CMake, Python, OpenCV
+- **成果**: 完成人脸特征分析工具的开发与集成
+
+### 🔒 AI系统与安全研究 | AI Systems & Security
+
+#### 记忆系统研究
+- **描述**: 研究MemoryOS与mem0等记忆系统，尝试迁移content poisoning攻击
+- **技术栈**: Python, 深度学习框架
+- **成果**: 设计完整的攻击实验与评估逻辑，精读多篇顶级会议论文
+
+### 🎯 多模态交互系统 | Multimodal Interaction Systems
+
+#### 智能面试评测系统
+- **描述**: 面向高校学生的多模态智能面试评测系统
+- **技术栈**: Flask, MySQL, Vue 3, Element Plus, 讯飞API, OpenFace
+- **成果**: 实现对面试过程的语音、表情和逻辑的综合分析
+
+### 💾 数据库与事务管理 | Database & Transaction Management
+
+#### 事务调度系统
+- **描述**: 支持Wound-Wait协议的事务调度系统
+- **技术栈**: Java, MySQL, 并发编程
+- **成果**: 解决并发与死锁问题，包含完整的事务管理模块
+
+### 📈 量化交易研究 | Quantitative Trading Research
+
+#### 增强型多因子交易策略
+- **描述**: BollingerStrategy类，结合多种技术指标
+- **技术栈**: Python, pandas, numpy, matplotlib
+- **成果**: 实现多指标信号生成，提升交易策略的稳定性
+
+### 🚌 课程与团队项目 | Course & Team Projects
+
+#### 校车管理系统
+- **描述**: 基于软件工程理论开发的校车管理系统
+- **技术栈**: Java, Spring Boot, MySQL, Vue.js
+- **成果**: 应用多种开发方法，完成完整的系统开发流程
 
